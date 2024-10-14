@@ -1,0 +1,45 @@
+nav {
+    text-align: right;
+    color: black;
+    flex: auto;
+}
+.Google{
+    text-align: center;
+    margin-top: 200px;
+}
+.cen{
+    text-align: center;
+    margin: auto;
+}
+.ab{
+    background: rgb(243, 239, 239);
+    display: flex;
+    border: 1px solid whitesmoke;
+    border-radius: 24px;
+    z-index: 3;
+    height: 45px;
+    margin: 0 auto;
+    width: 500px;
+}
+.inp{
+    background-image: linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    margin: 11px 4px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    padding: 0 16px;
+    line-height: 25px;
+    height: 35px;
+    min-width: 50px;
+}
+.inp:hover{
+    background-color: green;
+}
+input.dUBGpe {
+    padding: 0 12px;
+}

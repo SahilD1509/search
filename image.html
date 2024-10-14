@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <style>
+        .cen{
+            margin: 10px;
+            text-align: center;
+        }
+        .a1{
+            text-align: end;
+        }
+        .appbar{
+            text-align: center;
+            color: blue;
+        }
+        .inp{
+            border: 20px;
+            height: 20px;
+            width: 100px;
+            background-color: blue;
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+        .inp:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <a class = "a1" href="index.html" title="Google Search">Google Search</a><br>
+
+        <div class="appbar">
+            <h2>Image Search</h2>
+        </div>
+
+        <form class="cen" action="https://google.com/search">
+            <input type="text" size="80" name="q" class = "fo"><br><br>
+            <input name="tbm" value="harvard" type="hidden">
+            <input type="submit" value="Image Search" class = "inp">
+        </form>
+</body>
+</html>

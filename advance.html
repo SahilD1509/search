@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Search</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        h3{
+            color: black;
+        }
+        .adv{
+            text-align: center;
+            background-color: gray;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+        }
+        .sub{
+            width: 300px;
+            height: 100px;
+            font-size: 30px;
+            border: 5cap;
+            text-align: end;
+        }
+        #bu{
+            text-align: end;
+            background-color: blue;
+            size: 0cap;
+            margin: 10px;
+            height: 40px;
+            width: 60px;
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+        #bu:hover{
+            background-color: green;
+        }
+        a1{
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <a class = "a1" href="index.html" title="Google Search">Google Search</a><br>
+    <h3>Advance Search</h3>
+    
+    <form action="https://www.google.com/search">
+
+        <div class="adv">
+            All these words:
+            <input name="words" type="text" placeholder="type text" size="70">
+        </div>
+        <div class="adv">
+            this exact word or phrase:
+            <input type="text" placeholder="type text" size="61">
+        </div>
+        <div class="adv">
+            any of these words:
+            <input type="text" placeholder="type text" size="67">
+        </div>
+        <div class="adv">
+            none of these words:
+            <input type="text" placeholder="type text" size="66">
+        </div>
+            <button id="bu" class="jfk-button-action" type="submit">Search</button>
+    </form>
+    
+</body>
+</html>
